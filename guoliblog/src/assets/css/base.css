@@ -1,0 +1,68 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.el-card {}
+
+.happy-scroll-content {
+  width: 98% !important;
+}
+
+.el-card__header {
+  background-color: #eee;
+  padding: 15px !important;
+  padding-bottom: 7px !important;
+}
+
+.el-table {
+  margin-top: 20px;
+}
+
+td,
+th {
+  text-align: center !important;
+}
+
+h3 {
+  margin: 0;
+}
+
+code {
+  font-size: 20px;
+}
+
+.el-drawer {
+  background-color: #ccc !important;
+}
+
+.minImg {
+  width: auto;
+  height: 30px;
+}
+
+.maxImg {
+  width: 100%;
+  height: auto;
+}
+
+
+.el-drawer {
+  background-color: #ffffff !important;
+}
+
+.el-scrollbar__wrap {
+  overflow-x: hidden !important;
+}
+
+/* 移动端 */
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  p img {
+    width: 100%;
+  }
+}
